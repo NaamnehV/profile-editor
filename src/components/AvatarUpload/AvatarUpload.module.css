@@ -1,0 +1,65 @@
+.avatarUploadWrapper { 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  margin: 0;                
+  padding: 0;               
+  box-sizing: border-box;  
+}
+
+.avatarUpload {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;              
+  height: 120px;             
+  background-color: #D9D9D9; 
+  border-radius: 50%;       
+  cursor: pointer;
+}
+
+.avatarLabel {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.fileInput {
+  display: none;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; 
+  transition: opacity 0.3s ease-in-out; 
+}
+
+.cameraIcon {
+  font-size: 48px; 
+  color: #555;     
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%; 
+  z-index: 0; 
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}

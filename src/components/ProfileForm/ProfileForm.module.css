@@ -1,0 +1,106 @@
+.formMedia {
+  width: 450px; 
+  height: auto;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: flex-start;
+  padding-right: 20px; 
+}
+
+.form {
+  width: 100%;
+  max-width: 450px; 
+  padding: 20px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #E9F2F3 0%, #A6C5E3 100%);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.input, button, .visibilityOption input {
+  width: 95%;
+  padding: 10px;
+  margin: 8px auto;
+  border-radius: 8px;
+  border: 1.41px solid #00000061;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #A6C5E3;
+  color: #00000061;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8bb1d2;
+}
+
+.visibilityOptions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.visibilityOption {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.visibilityOption input {
+  margin-right: 5px;
+}
+
+.visibilityOption label {
+  font-size: 16px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.interestsFieldContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.interestsFieldContainer select {
+  width: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #00000061;
+}
+
+.addInterestButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #A6C5E3;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.addInterestButton:hover {
+  background-color: #8bb1d2;
+}

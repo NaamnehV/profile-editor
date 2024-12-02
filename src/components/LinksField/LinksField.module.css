@@ -1,0 +1,57 @@
+.linksTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.linkRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 45%;
+  padding: 8px 0;
+  margin: 0 10px;
+  border: none; 
+  border-bottom: 2px solid #00000061;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: transparent; 
+}
+
+.removeIcon {
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.addButton {
+  background-color: transparent;
+  color: #3888E7;
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 0; 
+}
+
+.addButton:hover {
+  background-color: transparent;
+  color: #2a77bb;
+}
+
+.addButton span {
+  pointer-events: none;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
